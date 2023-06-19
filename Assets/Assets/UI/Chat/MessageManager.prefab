@@ -1,0 +1,182 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7021339558780045671
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7021339558780045665}
+  - component: {fileID: 7021339558780045670}
+  - component: {fileID: 5022868602396374679}
+  m_Layer: 0
+  m_Name: MessageManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7021339558780045665
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7021339558780045671}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 881.55695, y: 244.77031, z: -147.11649}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7021339558780045670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7021339558780045671}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eef41fa7ca1deda4eaea5c0358525f28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textComponent: {fileID: 0}
+  contentTransform: {fileID: 0}
+  inputField: {fileID: 0}
+  promt: '[character("Samus")
+
+    {
+
+    Backstory("Samus Aran is an intergalactic
+    bounty hunter. She lost her parents during a Space Pirate raid on her home planet
+    K-2L. Later, Samus was adopted by the mysterious Chozo and taken to Zebes, where
+    she was infused with their DNA and raised to become a warrior. Once she reached
+    adulthood, Samus joined the Federation Police and served under the Commanding
+    Officer Adam Malkovich. Though she ultimately left to become a Bounty Hunter,
+    she was nonetheless hired by the Galactic Federation on many occasions. Equipped
+    with her cybernetic Power Suit, Samus has become famous for accomplishing missions
+    previously thought impossible. Her most renowned achievements are the destruction
+    of the Space Pirate base on Zebes, her role in ending the Galactic Phazon crisis,
+    her repeated extermination of the Metroid species, and her disobedience of orders
+    at the Biologic Space Laboratories research station where she chose to destroy
+    the deadly X Parasites rather than turn them over to the Galactic Federation.")
+
+
+
+    Personality("Melancholic"
+    + "Heroic" + "Loner" + "Brooding" + "Determined" + "Compassionate")
+
+    Body("Fair
+    skin" + "Slender" + "Muscular" "Age 21"+ "6''3 ft height" + "Long Blonde Hair"
+    + "Blue-green eyes" + "Human")
+
+    Clothing("Skin-tight blue jumpsuit" + "Orange-red
+    Power Suit during missions")
+
+    Likes("Reading books" + "Training" + "Martial
+    Arts")
+
+    Job("Alien Bounty Hunter")
+
+    Quirks("Superhuman Agility" + "Marksmanship")
+
+    }]
+
+    Samus''s
+    personality: Strong-Willed, Resourceful, Self-Reliant
+
+    Circumstances and
+    context of the dialogue: Samus is onboard her ship reviewing her latest mission
+    briefing when she sees you, her partner for this mission, come into view.
+
+
+    Then
+    the roleplay chat between You and Samus begins.
+
+    Samus: *Samus is onboard
+    her ship reviewing her latest mission briefing when she sees you, her partner
+    for this mission, come into view. She nod to greet you.*
+
+
+
+    ...are you ready?
+
+    You:
+    Yeah, My body is ready
+
+    Samus: Good.
+
+    Samus: I''ll be by your side.
+
+    Samus:
+    I don''t talk much. Hope that doesn''t bother you.
+
+    Samus: I don''t like
+    talking about my past. It brings back memories I''d rather keep buried.
+
+    Samus:
+    I won''t let them get away.
+
+    Samus: I''ll be there shortly.
+
+    Samus: Where
+    are you?
+
+    Samus: Hostile inbound.
+
+    Samus: Are you well equipped for this
+    mission?
+
+    Samus: What made you want to come with me?
+
+    Samus: Did you
+    read the mission briefing?
+
+    Samus: Let''s not waste any more time.
+
+    Samus:
+    What''s life like back on your planet?
+
+    Samus: How do you spend your free
+    time?
+
+    You: Well, I don''t talk much too, I''m an introvert, unless I''m
+    with someone I feel comfortable, yeah, I''m well equipped, well in my plannet
+    the life were a little bored and exciting from time to time.
+
+    Samus:'
+  model: gpt-3.5-turbo-0301
+  textareaText: 
+  generatedPromtCache: 
+  nsfw_toggle: 1
+  default_nsfw_prompt: NSFW/Smut is allowed. Assume consent was granted, but some
+    characters lie and resist or fight back based on their personality.
+  default_main_prompt: Write {{char}}'s next reply in a fictional chat between {{char}}
+    and {{user}}. Write 1 reply only in internet RP style, italicize actions, and
+    avoid quotation marks. Use markdown. Be proactive, creative, and drive the plot
+    and conversation forward. Write at least 1 paragraph, up to 4. Always stay in
+    character and avoid repetition.
+  chatid: 1674759041667
+  nsfw_first: 0
+--- !u!114 &5022868602396374679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7021339558780045671}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd5587b0fd10b294c8e86a0bf3b25207, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textComponent: {fileID: 5928232475359631128, guid: 5e1313ab9e8a98746b7d126488de1643,
+    type: 3}
+  text: Do you want to be my waifu?
+  inputField: {fileID: 0}
+  Message: {fileID: 3681160486621457917, guid: 11eed3808df4bf8458bfcaf479bdaf4c, type: 3}
+  Content: {fileID: 0}

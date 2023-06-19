@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>AI.Dev.OpenAI.GPT</id>
+    <version>1.0.2</version>
+    <title>OpenAI GPT utils</title>
+    <authors>Devis Lucato</authors>
+    <license type="expression">CC0-1.0</license>
+    <licenseUrl>https://licenses.nuget.org/CC0-1.0</licenseUrl>
+    <projectUrl>https://github.com/dluc/openai-tools</projectUrl>
+    <description>OpenAI GPT utils, e.g. GPT3 Tokenizer</description>
+    <copyright>Devis Lucato</copyright>
+    <tags>OpenAI GPT GPT3 Tokenizer Tokens AI</tags>
+    <repository url="https://github.com/dluc/openai-tools" />
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="Newtonsoft.Json" version="9.0.1" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net5.0">
+        <dependency id="Newtonsoft.Json" version="9.0.1" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net6.0">
+        <dependency id="Newtonsoft.Json" version="9.0.1" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Newtonsoft.Json" version="9.0.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>
